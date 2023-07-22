@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(./Sunset\ Wallpaper\ \ \ Nature\ Wallpaper\ \(1\).jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+} */
+.box {
+    box-shadow: 0px 0px 10px 0px;
+    height: 500px;
+    width: 300px;
+    margin-left: 510px;
+    margin-top: 20px;
+    background-image: url(./giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+input.input {
+    height: 25px;
+    width: 200px;
+    margin-left: 13px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+
+}
+button.search {
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+}
+.locations {
+    box-shadow: 0px 0px 10px 0px;
+    text-align: center;
+    height: 110px;
+    width: 200px;
+    margin-left: 55px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+h3.head {
+    color: white;
+    font-size: 25px;
+}
+p.temprature {
+    font-size: 20px;
+    color: white;
+}
+img.cloud {
+    height: 75px;
+    filter: drop-shadow(0px 0px 8px black);
+}
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+h3.wind {
+    box-shadow: 0px 0px 15px 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+h3.des{
+    box-shadow: 0px 0px 15px 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.err{
+    display: none;
+}
+.active{
+    display: block;
+}
